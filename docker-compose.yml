@@ -28,7 +28,7 @@ services:
       - /path/to/you/dir:/var/lib/mysql # 请注意修改 /path/to/you/dir 为您要存储mysql数据的目录绝对路径.
     environment:
       - TZ=Asia/Shanghai
-      - MYSQL_ROOT_PASSWORD=Jonnyan404!
+      - MYSQL_ROOT_PASSWORD=Jonnyan404! 
       - MYSQL_DATABASE=mrdoc
       - MYSQL_USER=jonnyan404
       - MYSQL_PASSWORD=www.mrdoc.fun
