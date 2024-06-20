@@ -19,7 +19,6 @@ jobs:
           docker version
           # 登录阿里云镜像仓库
           docker login --username=aliyun6164502686 registry.cn-hangzhou.aliyuncs.com
-          cd xxl-job-admin
           # 使用Dockerfile构建镜像
           docker build . --file Dockerfile --tag registry.cn-hangzhou.aliyuncs.com/oyyz_online/mr_doc:1.0.0
           # 推送镜像到镜像仓库
